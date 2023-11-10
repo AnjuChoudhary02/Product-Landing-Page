@@ -1,0 +1,152 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #header {
+    display: flex;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .nav-link {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  .logo {
+    width: 300px;
+    cursor: pointer;
+  }
+
+  /* MESSAGE */
+  #container {
+    max-width: 960px;
+    margin: 2rem auto 0;
+    overflow: hidden;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: yellow;
+  }
+  
+  .message-box {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .message-box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .message-box input {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* FEATURES */
+  #features {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #features .f1 div {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+
+  #features .f2 div {
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+  
+  #features .f3 div {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* PRICING */
+  #pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0.2rem;
+  }
+  
+  .price-box {
+    border: solid #333 3px;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .price-box h3 {
+    background-color: #ddd;
+    font-size: 1.05rem;
+    padding: 1rem;
+  }
+  
+  .price-box h2 {
+    padding: 1rem;
+  }
+  
+  .price-box p {
+    padding: 0 4rem 1rem;
+  }
+  
+  .price-box .btn {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  /* FOOTER */ 
+  #main-footer {
+    background-color: #ccc;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  #main-footer div a {
+    color: black;
+    padding: 0.5rem 1rem;
+    float: right;
+  }
+
+  #main-footer p{
+    float: left;
+  }
+  
+  
